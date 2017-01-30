@@ -1,0 +1,503 @@
+{
+    "name": "infant-weekly-data",
+    "children": [{
+            "name": "Sunday",
+            "children": [{
+                    "name": "Naps",
+                    "children": [{
+                            "name": "35 min",
+                            "size": 35
+                        },
+                        {
+                            "name": "40 min",
+                            "size": 40
+                        },
+                        {
+                            "name": "1 hr 30 min",
+                            "size": 90
+                        },
+                        {
+                            "name": "15 min",
+                            "size": 15
+                        },
+                        {
+                            "name": "1 hr",
+                            "size": 60
+                        }
+                    ]
+                },
+                {
+                    "name": "Night Sleep - 8hr",
+                    "children": [{
+                        "name": "Wakings",
+                        "children": [{
+                                "name": "11:30",
+                                "size": 20
+                            },
+                            {
+                                "name": "3:00",
+                                "size": 10
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "name": "Bathroom",
+                    "children": [{
+                            "name": "Poops",
+                            "children": [{
+                                    "name": "1:30",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "3:00",
+                                    "size": 10
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Pees",
+                            "children": [{
+                                    "name": "6:30",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "9:00",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "12:00",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "3:00",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "8:00",
+                                    "size": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Feedings",
+                    "children": [{
+                            "name": "5 oz",
+                            "size": 50
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "5 oz",
+                            "size": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Monday",
+            "children": [{
+                    "name": "Naps",
+                    "children": [{
+                            "name": "35 min",
+                            "size": 35
+                        },
+                        {
+                            "name": "40 min",
+                            "size": 40
+                        },
+                        {
+                            "name": "1 hr 30 min",
+                            "size": 90
+                        },
+                        {
+                            "name": "15 min",
+                            "size": 15
+                        },
+                        {
+                            "name": "1 hr",
+                            "size": 60
+                        }
+                    ]
+                },
+                {
+                    "name": "Feedings",
+                    "children": [{
+                            "name": "5 oz",
+                            "size": 50
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "5 oz",
+                            "size": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tuesday",
+            "children": [{
+                    "name": "Naps",
+                    "children": [{
+                            "name": "35 min",
+                            "size": 35
+                        },
+                        {
+                            "name": "40 min",
+                            "size": 40
+                        },
+                        {
+                            "name": "1 hr 30 min",
+                            "size": 90
+                        },
+                        {
+                            "name": "15 min",
+                            "size": 15
+                        },
+                        {
+                            "name": "1 hr",
+                            "size": 60
+                        }
+                    ]
+                },
+                {
+                    "name": "Feedings",
+                    "children": [{
+                            "name": "5 oz",
+                            "size": 50
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "5 oz",
+                            "size": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wednesday",
+            "children": [{
+                    "name": "Naps",
+                    "children": [{
+                            "name": "35 min",
+                            "size": 35
+                        },
+                        {
+                            "name": "40 min",
+                            "size": 40
+                        },
+                        {
+                            "name": "1 hr 30 min",
+                            "size": 90
+                        },
+                        {
+                            "name": "15 min",
+                            "size": 15
+                        },
+                        {
+                            "name": "1 hr",
+                            "size": 60
+                        }
+                    ]
+                },
+                {
+                    "name": "Feedings",
+                    "children": [{
+                            "name": "5 oz",
+                            "size": 50
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "5 oz",
+                            "size": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Thursday",
+            "children": [{
+                    "name": "Naps",
+                    "children": [{
+                            "name": "35 min",
+                            "size": 35
+                        },
+                        {
+                            "name": "40 min",
+                            "size": 40
+                        },
+                        {
+                            "name": "1 hr 30 min",
+                            "size": 90
+                        },
+                        {
+                            "name": "15 min",
+                            "size": 15
+                        },
+                        {
+                            "name": "1 hr",
+                            "size": 60
+                        }
+                    ]
+                },
+                {
+                    "name": "Feedings",
+                    "children": [{
+                            "name": "5 oz",
+                            "size": 50
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "5 oz",
+                            "size": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Friday",
+            "children": [{
+                    "name": "Naps",
+                    "children": [{
+                            "name": "55 min",
+                            "size": 55
+                        },
+                        {
+                            "name": "1 hr 15 min",
+                            "size": 75
+                        },
+                        {
+                            "name": "10 min",
+                            "size": 10
+                        },
+                        {
+                            "name": "2 hr",
+                            "size": 120
+                        }
+                    ]
+                },
+                {
+                    "name": "Feedings",
+                    "children": [{
+                            "name": "5 oz",
+                            "size": 50
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "5 oz",
+                            "size": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Saturday",
+            "children": [{
+                    "name": "Naps",
+                    "children": [{
+                            "name": "35 min",
+                            "size": 35
+                        },
+                        {
+                            "name": "40 min",
+                            "size": 40
+                        },
+                        {
+                            "name": "1 hr 30 min",
+                            "size": 90
+                        },
+                        {
+                            "name": "15 min",
+                            "size": 15
+                        },
+                        {
+                            "name": "20 min",
+                            "size": 20
+                        },
+                        {
+                            "name": "1 hr",
+                            "size": 60
+                        }
+                    ]
+                },
+                {
+                    "name": "Feedings",
+                    "children": [{
+                            "name": "5 oz",
+                            "size": 50
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "4 oz",
+                            "size": 40
+                        },
+                        {
+                            "name": "2 oz",
+                            "size": 20
+                        },
+                        {
+                            "name": "5 oz",
+                            "size": 50
+                        },
+                        {
+                            "name": "3 oz",
+                            "size": 30
+                        },
+                        {
+                            "name": "5 oz",
+                            "size": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

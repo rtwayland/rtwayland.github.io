@@ -1,0 +1,15 @@
+<h1>All Nap Data</h1>
+<table>
+    <tbody>
+        <th>Duration</th>
+        <th>Start Time</th>
+        <th>Date</th>
+        <tr ng-repeat="nap in naps | orderBy:'-timestamp' track by $index">
+            <td>{{ nap.duration }}</td>
+            <td>{{ nap.timestamp | date:'shortTime' }}</td>
+            <td>{{ nap.timestamp | date:'mediumDate' }}</td>
+            <td><button type="button" class="delete-button" ng-click="deleteNap(nap.id)">Delete</button></td>
+        </tr>
+
+    </tbody>
+</table>

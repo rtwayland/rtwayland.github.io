@@ -1,0 +1,19 @@
+<div class="manual-time-entry-container">
+    <form name="manualTimeEntryForm" ng-submit="submitTime(manualTimeEntryForm.$valid)">
+        <div class="input-container date-input">
+            <label for="date">Date</label>
+            <input type="date" id="date" value="{{fillerDate | date:'yyyy-MM-dd'}}" ng-model="entryDate" required>
+        </div>
+        <div class="input-container time-input">
+            <label for="start-time">Start Time</label>
+            <input type="time" id="start-time" value="{{fillerSTime | date:'HH:mm:ss'}}" ng-model="entryStartTime" required>
+        </div>
+        <div class="input-container time-input">
+            <label for="end-time">End Time</label>
+            <input type="time" id="end-time" value="{{fillerETime | date:'HH:mm:ss'}}" ng-model="entryEndTime" min="{{entryStartTime}}" required>
+        </div>
+        <button class="submit-button" type="submit" ng-disabled="manualTimeEntryForm.$invalid">
+      Submit Time
+    </button>
+    </form>
+</div>

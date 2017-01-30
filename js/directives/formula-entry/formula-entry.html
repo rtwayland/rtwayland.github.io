@@ -1,0 +1,25 @@
+<div class="formula-card-container">
+    <div class="details-container">
+        <div class="amount-container">
+            <div class="oz-number">
+              <input type="text" name="ozAmount" ng-model="ozAmount" maxlength="2" placeholder="0">
+            </div>
+            <div class="oz-label">oz</div>
+        </div>
+        <span class="enter-time-label">Enter Time</span>
+        <div class="time-options">
+            <div class="now" ng-class="{active: !manualEntry}" ng-click="manualEntry = false">
+                <span>Now</span>
+            </div>
+            <div class="manual" ng-class="{active: manualEntry}" ng-click="manualEntry = true">
+                <span>Manual</span>
+            </div>
+        </div>
+        <div class="time-entry-container" ng-show="manualEntry">
+            <input type="time" name="time-fed" id="time-fed" ng-model="timeFed">
+        </div>
+    </div>
+    <div class="submit-button">
+        <span>Submit</span>
+    </div>
+</div>
