@@ -1,0 +1,25 @@
+<div class="ui grid">
+    <div class="computer tablet only row">
+        <div class="ui top fixed menu">
+            <div class="header item">
+                <a class="company-title serif-font" ui-sref="home">Fox Briar Properties</a>
+            </div>
+            <a ng-repeat="link in links" class="item" ui-sref="{{ link.link }}">{{ link.name }}</a>
+        </div>
+    </div>
+    <div class="mobile only row">
+        <div class="ui top fixed navbar menu">
+            <div class="header item">
+                <a class="company-title serif-font" ui-sref="home">Fox Briar Properties</a>
+            </div>
+            <div class="right menu open hamburger-menu-icon" ng-click="toggleMenu()">
+                <span class="menu item">
+                    <i class="content icon"></i>
+                </span>
+            </div>
+        </div>
+        <div class="ui top sidebar vertical menu" id="nav-collapse">
+            <a ng-repeat="link in links" class="item" ui-sref="{{ link.link }}" ng-click="toggleMenu()">{{ link.name }}</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif; }
+
+#main-wrapper {
+  margin-top: 70px; }
+
+.serif-font {
+  font-family: "Alegreya", serif; }
+
+main-nav .company-title {
+  font-size: 1.6em; }
+
+main-nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.2em; }
+  main-nav a:active, main-nav a:visited {
+    text-decoration: none;
+    color: #222; }
+
+main-nav .hamburger-menu-icon {
+  cursor: pointer; }
+  main-nav .hamburger-menu-icon i {
+    margin: auto !important;
+    font-size: 1.5em; }
+
+#nav-collapse .item {
+  font-size: 1.2em !important; }
+
+.form-container {
+  margin: auto auto 50px; }
+  @media screen and (min-width: 1200px) {
+    .form-container {
+      max-width: 80%; } }
+  .form-container button[type="submit"] {
+    display: block;
+    margin: 30px auto auto; }
+
+/*# sourceMappingURL=maps/main.css.map */
